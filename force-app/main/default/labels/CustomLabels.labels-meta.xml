@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Flow_Deletion_Error</fullName>
+        <categories>flows,errors</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Flow Deletion Error</shortDescription>
+        <value>Before deleting a flow version please update the custom metadata to allow deleting flows.There is no way to recover deleted flow versions from Salesforce. Make sure you have backed up all your metadata</value>
+    </labels>
+</CustomLabels>
