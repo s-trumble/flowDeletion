@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_Deletion__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When false/unchecked users will be blocked from deleting flows by a trigger throwing an error.</description>
+    <inlineHelpText>When false/unchecked users will be blocked from deleting flows by a trigger throwing an error.</inlineHelpText>
+    <label>Allow Deletion?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
