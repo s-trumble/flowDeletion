@@ -17,6 +17,6 @@ In anonymous apex run the following:
     System.schedule(jobName, cronExp, new FlowDeletionSettingScheduler());
 
 
-    Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
-    
-    Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
+Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
+
+Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
