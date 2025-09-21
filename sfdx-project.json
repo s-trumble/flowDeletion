@@ -1,12 +1,21 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 1.1",
+      "versionNumber": "1.0.1.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "flowDeletionSetting",
+      "versionDescription": "Prevent users from deleting a flow until they explicitly enable a custom setting"
     }
   ],
   "name": "flowDeletion",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "64.0"
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "flowDeletionSetting": "0HoNS0000000lLV0AY",
+    "flowDeletionSetting@1.0.0-1": "04tNS000000BlGXYA0",
+    "flowDeletionSetting@1.0.1-1": "04tNS000000BlI9YAK"
+  }
 }
