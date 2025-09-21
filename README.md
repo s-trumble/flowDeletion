@@ -13,5 +13,9 @@ In anonymous apex run the following:
     String cronExp = '0 0 * * * ?';
 
     String jobName = 'Flow Deletion Setting Reset';
-    
+
     System.schedule(jobName, cronExp, new FlowDeletionSettingScheduler());
+
+
+    Production: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
+    Sandbox: https://test.salesforce.com/packaging/installPackage.apexp?p0=04tNS000000BlI9YAK
